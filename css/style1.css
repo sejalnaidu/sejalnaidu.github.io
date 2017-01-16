@@ -1,31 +1,8 @@
-/*
-Site Name: Nettuts+
-Site URI: http://net.tutsplus.com/
-Description: HTML5 Resume that Includes Schema.org Microdata Tutorial | Demo | Dark Blue
-Version: 1.0
-Author: Janet Wagner
-Author URI:  http://www.WebCodePro.net/
-*/
-
-
-/*  Color Reference
----------------------------------------------------
-
-Green: #0066cc
-Medium Gray: #dcdcdc
-Light Gray: #eee
-
-*/
-
-
-
-/* Default Styles
---------------------------------------------------- */
 
 body {
 	margin: 0px;
 	padding: 0px;
-	background: url("bg_dark_blue.png");  
+	background: url("../images/bg_dark_blue.png");  
 	background-color: inherit;
 	font-size: 16px; 
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -97,7 +74,7 @@ a:active {
 
 #contact-details .header_1 img {
 	border: #fff solid 4px;
-	background: url("bg_img_dark_blue.png"); 
+	background: url("../images/bg_img_dark_blue.png"); 
 	padding: 16px;
 	margin: 10px 0px 0px 0px;
 }
@@ -138,36 +115,22 @@ a:active {
 }
 
 #contact-details li.address	{
-    background: url("home.png") no-repeat;
+    background: url("../images/home.png") no-repeat;
 	background-position: 0px 0px;
     padding: 0px 0px 12px 40px;
 }
 
 #contact-details li.phone	{
-    background: url("phone.png") no-repeat;
+    background: url("../images/phone.png") no-repeat;
 	background-position: 0px 0px;
     padding: 0px 0px 12px 40px;
 }
 
 #contact-details li.email	{
-    background: url("mail.png") no-repeat;
+    background: url("../images/mail.png") no-repeat;
 	background-position: 0px 0px;
     padding: 0px 0px 12px 40px;
 }
-
-#contact-details li.site_url	{
-    background: url("computer.png") no-repeat;
-	background-position: 0px 2px;
-    padding: 0px 0px 12px 40px;
-}
-
-#contact-details li.twitter	{
-    background: url("twitter_sm.png") no-repeat;
-	background-position: 0px 0px;
-    padding: 0px 0px 12px 40px;
-}
-
-
 
 /* Main Content
 --------------------------------------------------- */
@@ -261,7 +224,7 @@ p.summary	{
 }
 
 #skills li {
-    background: url("bullet_blue.png") no-repeat;
+    background: url("../images/bullet_blue.png") no-repeat;
 	background-position: 0px 2px;
     padding: 0px 0px 0px 25px;
 }
